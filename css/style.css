@@ -131,6 +131,7 @@
 		background-color: var(--main-black);
 		z-index: 1;
 	}
+	.active-page .header-link::after, 
 	.header-link:hover::after {
 		display: inline-block;
 	}
@@ -496,6 +497,7 @@
 .services-section {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 	margin-bottom: 64px;
 	padding: 32px;
 	background: var(--main-white);
@@ -507,6 +509,8 @@
 }
 .services-section-img {
 	order: -1;
+	width: 200px !important;
+	height: auto;
 }
 .services-section-right {
 	margin-left: 40px;

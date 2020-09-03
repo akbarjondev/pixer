@@ -21,6 +21,7 @@
 	--main-blue: #00bafc;
 	--main-black: #191919;
 	--main-white: #ffffff;
+	scroll-behavior: smooth;
 }
 .body {
 	margin: 0;
@@ -463,6 +464,9 @@
 .footer-link:hover svg path {
 	fill: var(--main-blue);
 }
+
+/*=======services page =======*/
+
 
 /*media queries*/
 @media
